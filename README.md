@@ -39,3 +39,6 @@ apt install mariadb-client
 apt install mariadb-server
 et enfin le demarrage du service avec:
 systemctl start mariadb.service
+
+---Mise en place  des scripts Client/Serveur.
+Nous avons mis en place Une base de données MariaDB qui stocke l’ensemble des compte des utilisateurs du service mail avec leur mot de passes et les informations liées à leur compte.Un utilisateur créé tente de se connecter depuis notre machine cliente tout en s'authentifiant au niveau du serveur  avant de pouvoir avoir accés aux service. Raison pour laquelle nous avons implementer nos scripts server.py et client.py
