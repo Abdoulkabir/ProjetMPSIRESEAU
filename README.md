@@ -18,4 +18,5 @@ Notre environnement est constitué de 3 machines virtuelles installées sur Virt
 *une machine cliente de type Ubuntu 20.04 avec une adresse dynamique mise en réseau avec le serveur 
 *Une machine Man In The Middle de type kali linux réputé par ses outils de sécurité intégrés et donc des analyseurs de communications préinstallés comme Wireshark.Elle est aussi mise dans le même réseau Client/serveur et est aussi adressée Dynamiquement
 ---Implémentation et test du script d’installation des dépendances MYSQL et IREDMAIL
-Pour IREDMAIL nous avons la version 1.5.2. avant de  il faut d’abord donner les droits d’exécution du script avec chmod+x Install_IREDMAIL_DEPENDENCIES.sh , puis l’exécuter avec la commande bash Install_IREDMAIL_DEPENDENCIES.sh 
+Pour IREDMAIL nous avons la version 1.5.2. Nous avons d'abord installer les packages de IredMail depuis un depot github avec 
+apt -y install wget avant de  il faut d’abord donner les droits d’exécution du script avec chmod+x Install_IREDMAIL_DEPENDENCIES.sh , puis l’exécuter avec la commande bash Install_IREDMAIL_DEPENDENCIES.sh 
