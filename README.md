@@ -4,7 +4,7 @@ Ce README a pour but de présenter l’ensemble des fonctionnalités lors de la 
 Le projet consiste à mettre en place un dispositif permettant d’analyser un packet. Nous avons mise en place l'environnement virtuel en simulant un petit réseau constitué d’un SERVEUR avec une adresse fixe ou sera configurées les Services
 
 
--DNS
+- DNS
 
 -	DHCP
 
@@ -19,15 +19,15 @@ Une machine cliente qui bénéficiera de l’ensemble des services énumérées 
 Le travail sera réparti en 5 grandes parties :
 
 
--Implémentation et mise en réseau de l’environnement virtuel
+- Implémentation et mise en réseau de l’environnement virtuel
 
 -	Implémentation puis tests de nos services DHCP,DNS sur le serveur
 
--Implémentation et test du script d’installation des dépendances de mysql et iRedMail
+- Implémentation et test du script d’installation des dépendances de mysql et iRedMail
 
 -	Mise en place et tests des scripts Client/Serveur pour la connection 
 
--	 Simulation de Wireshark 
+- Simulation de Wireshark 
 
 
 ----	Implémentation et Mise en réseau de l’environnement virtuel---
@@ -44,7 +44,7 @@ Notre environnement est constitué de 3 machines virtuelles installées sur Virt
 
 ---Implémentation et test du script d’installation des dépendances MYSQL et IREDMAIL---
 
--Pour IREDMAIL nous avons la version 1.5.2. Nous avons d'abord installer les packages de IredMail depuis un depot github avec: 
+- Pour IREDMAIL nous avons la version 1.5.2. Nous avons d'abord installer les packages de IredMail depuis un depot github avec: 
 apt -y install wget et 
 
 wget https://github.com/iredmail/iRedMail/archive/refs/tags/1.5.2.tar.gz
@@ -62,7 +62,7 @@ pwd et
 bash iRedmail.sh
 
 
---Pour MYSQL---
+- Pour MYSQL
 
 Nous avons installer les dependances pour l'installation de mysql.
 Pour ce faire nous avons d'abord Mise à jour du systeme avec:
