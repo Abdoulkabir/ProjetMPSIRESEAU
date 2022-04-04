@@ -1,5 +1,5 @@
 # ProjetMPSIRESEAU
-Ce rapport a été rédigé dans le but de présenter l’ensemble des aspects fonctionnels lors de la conception de l’environnement de travail (Installation-Mise en Réseau-Implémentation Services (DHCP-DNS-IREDMAIL)) et la réalisation des différents scripts demandés (Installation-Dépendances, Communication CLIENT/SERVEUR, Analyse Paquets et Envoie Mail). Un travail réalisé  qui sera décrite juste ci-dessous.
+Ce README dans le but de présenter l’ensemble des aspects fonctionnels lors de la conception de l’environnement de travail (Installation-Mise en Réseau-Implémentation Services (DHCP-DNS-IREDMAIL)) et la réalisation des différents scripts demandés (Installation-Dépendances, Communication CLIENT/SERVEUR, Analyse Paquets et Envoie Mail). Un travail réalisé  qui sera décrite juste ci-dessous.
 Le projet consiste à mettre en place un dispositif permettant d’analyser un packet. Nous avons mise en place l'environnement virtuel en simulant un petit réseau constitué d’un SERVEUR avec une adresse fixe ou sera configurées les Services 
 -DNS
 -	DHCP
@@ -17,3 +17,5 @@ Notre environnement est constitué de 3 machines virtuelles installées sur Virt
 *Une machine serveur de type Ubuntu 20.04 avec une adresse fixée à 192.168.10.1
 *une machine cliente de type Ubuntu 20.04 avec une adresse dynamique mise en réseau avec le serveur 
 *Une machine Man In The Middle de type kali linux réputé par ses outils de sécurité intégrés et donc des analyseurs de communications préinstallés comme Wireshark.Elle est aussi mise dans le même réseau Client/serveur et est aussi adressée Dynamiquement
+---Implémentation et test du script d’installation des dépendances MYSQL et IREDMAIL
+Pour IREDMAIL nous avons la version 1.5.2. avant de  il faut d’abord donner les droits d’exécution du script avec chmod+x Install_IREDMAIL_DEPENDENCIES.sh , puis l’exécuter avec la commande bash Install_IREDMAIL_DEPENDENCIES.sh 
