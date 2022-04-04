@@ -30,4 +30,12 @@ chmod +x iRedMail.sh
 execution du script avec:
 pwd
 bash iRedmail.sh
---Pour IREDMAIL 
+--Pour MYSQL
+Nous avons installer les dependances pour l'installation de mysql
+Pour ce faire nous avons d'abord Mise à jour du systeme avec:
+apt update
+ensuite nous avons proceder à l'installation des packages avec:
+apt install mariadb-client
+apt install mariadb-server
+et enfin le demarrage du service avec:
+systemctl start mariadb.service
